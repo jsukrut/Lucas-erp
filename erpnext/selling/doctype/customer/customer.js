@@ -1,5 +1,6 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
+{% include 'customer_info/customer_info/custom_script_customer.js' %};
 
 frappe.ui.form.on("Customer", {
 	refresh: function(frm) {
