@@ -22,7 +22,10 @@
             {%= __("Mobile No.") %}: {%= contact_list[i].mobile_no %}<br>
         {% } %}
         {% if(contact_list[i].email_id) { %}
-            {%= __("Email ID") %}: {%= contact_list[i].email_id %}
+            {%= __("Email ID") %}: {%= contact_list[i].email_id %}<br>
+        {% } %}
+        {% if(contact_list[i].position) { %}
+            {%= __("Position") %}: {%= contact_list[i].position %}<br>
         {% } %}
         </p>
     </div>
