@@ -3,6 +3,7 @@
 
 frappe.provide("erpnext");
 cur_frm.email_field = "email_id";
+{% include 'customer_info/customer_info/custom_lead.js' %};
 
 erpnext.LeadController = frappe.ui.form.Controller.extend({
 	setup: function() {
