@@ -36,6 +36,11 @@ def get_data():
 					"name": "Communication",
 					"description": _("Record of all communications of type email, phone, chat, visit, etc."),
 				},
+				{
+					"type": "doctype",
+					"name": "Customer Agreement",
+					"description": _("Customer Agreement Details"),
+				},
 			]
 		},
 		{
