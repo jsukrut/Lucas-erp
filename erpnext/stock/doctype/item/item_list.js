@@ -1,4 +1,4 @@
-frappe.listview_settings['Item'] = {
+/*frappe.listview_settings['Item'] = {
 	add_fields: ["item_name", "stock_uom", "item_group", "image", "variant_of",
 		"has_variants", "end_of_life", "disabled", "is_sales_item"],
 	filters: [["disabled", "=", "0"]],
@@ -18,4 +18,4 @@ frappe.listview_settings['Item'] = {
 	}
 };
 
-frappe.help.youtube_id["Item"] = "qXaEwld4_Ps";
+frappe.help.youtube_id["Item"] = "qXaEwld4_Ps";*/
